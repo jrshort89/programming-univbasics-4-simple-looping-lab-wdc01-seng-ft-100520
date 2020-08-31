@@ -6,3 +6,12 @@ def loop_message_five_times(str)
   count += 1
   end
 end
+
+def loop_message_n_times(str, int)
+  count = 0
+  while count < int do 
+  puts str
+  count += 1
+  end
+end
+
