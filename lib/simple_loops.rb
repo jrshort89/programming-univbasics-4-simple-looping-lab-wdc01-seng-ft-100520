@@ -22,3 +22,11 @@ def output_array(arr)
   count += 1
   end
 end
+
+def return_string_array()
+  count = 0
+  while count < arr.length
+  puts arr[count].to_s
+  count += 1
+  end 
+end
